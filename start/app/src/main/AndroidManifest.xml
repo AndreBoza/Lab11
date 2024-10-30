@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
+<<<<<<< HEAD
     package="com.example.makeitso">
+=======
+>>>>>>> 42932e06df7ae915daeacfc6bf2d8aadd0accf6f
 
     <application
         android:icon="@mipmap/ic_launcher"

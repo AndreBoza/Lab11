@@ -1,13 +1,23 @@
 {
   "project_info": {
+<<<<<<< HEAD
     "project_number": "1001836891760",
     "project_id": "hydroregis-fd066",
     "storage_bucket": "hydroregis-fd066.appspot.com"
+=======
+    "project_number": "322531265526",
+    "project_id": "lab11-7d1b8",
+    "storage_bucket": "lab11-7d1b8.appspot.com"
+>>>>>>> 42932e06df7ae915daeacfc6bf2d8aadd0accf6f
   },
   "client": [
     {
       "client_info": {
+<<<<<<< HEAD
         "mobilesdk_app_id": "1:1001836891760:android:58ab0492371ad2621f2eb5",
+=======
+        "mobilesdk_app_id": "1:322531265526:android:92064b3e38c8a8451b95d7",
+>>>>>>> 42932e06df7ae915daeacfc6bf2d8aadd0accf6f
         "android_client_info": {
           "package_name": "com.example.makeitso"
         }
@@ -15,7 +25,11 @@
       "oauth_client": [],
       "api_key": [
         {
+<<<<<<< HEAD
           "current_key": "AIzaSyAgLSVBoeGghoGh9yToGPYm6RZrMXdgIsQ"
+=======
+          "current_key": "AIzaSyDr91GNIwT4eR_LyMs96vSSZqDTsK5YKSU"
+>>>>>>> 42932e06df7ae915daeacfc6bf2d8aadd0accf6f
         }
       ],
       "services": {

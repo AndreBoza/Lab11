@@ -9,7 +9,18 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="3188acc8-b78e-4544-923f-e3532556e00c" name="Changes" comment="" />
+=======
+    <list default="true" id="3188acc8-b78e-4544-923f-e3532556e00c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/makeitso/model/service/AccountService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/makeitso/model/service/AccountService.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/makeitso/model/service/impl/AccountServiceImpl.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/makeitso/model/service/impl/AccountServiceImpl.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/makeitso/screens/login/LoginViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/makeitso/screens/login/LoginViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/makeitso/screens/sign_up/SignUpViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/makeitso/screens/sign_up/SignUpViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+    </list>
+>>>>>>> 42932e06df7ae915daeacfc6bf2d8aadd0accf6f
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,6 +35,50 @@
       <ProjectState />
     </projectState>
   </component>
+<<<<<<< HEAD
+=======
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$/app">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="MakeItSo" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="MakeItSo" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="MakeItSo" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="MakeItSo" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="other" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+>>>>>>> 42932e06df7ae915daeacfc6bf2d8aadd0accf6f
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -40,9 +95,15 @@
     "RunOnceActivity.readMode.enableVisualFormatting": "true",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
+<<<<<<< HEAD
     "com.google.services.firebase.aqiPopupShown": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/boza/AndroidStudioProjects/Lab11_Start-main/Lab11_Start-main/start/app"
+=======
+    "git-widget-placeholder": "feature/firebase-auth",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/boza/AndroidStudioProjects/Lab11-main/Lab11-main/start"
+>>>>>>> 42932e06df7ae915daeacfc6bf2d8aadd0accf6f
   },
   "keyToStringList": {
     "kotlin-gradle-user-dirs": [
@@ -51,10 +112,15 @@
   }
 }]]></component>
   <component name="RecentsManager">
+<<<<<<< HEAD
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\boza\AndroidStudioProjects\Lab11_Start-main\Lab11_Start-main\start\app" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+=======
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Laboratorios-24-II\Prog_en_Mviles\Ejercicios\Lab11\start\app" />
+>>>>>>> 42932e06df7ae915daeacfc6bf2d8aadd0accf6f
       <recent name="$PROJECT_DIR$/app" />
     </key>
   </component>

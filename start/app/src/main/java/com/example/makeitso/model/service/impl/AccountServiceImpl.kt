@@ -53,12 +53,25 @@ class AccountServiceImpl @Inject constructor(private val auth: FirebaseAuth) : A
     auth.sendPasswordResetEmail(email).await()
   }
 
+<<<<<<< HEAD
+=======
+  // para enviar un correo de verificación
+  override suspend fun sendEmailVerification() {
+    auth.currentUser?.sendEmailVerification()?.await()
+  }
+
+>>>>>>> 42932e06df7ae915daeacfc6bf2d8aadd0accf6f
   override suspend fun createAnonymousAccount() {
     auth.signInAnonymously().await()
   }
 
   override suspend fun linkAccount(email: String, password: String) {
+<<<<<<< HEAD
     //TODO
+=======
+    val credential = EmailAuthProvider.getCredential(email, password)
+    auth.currentUser!!.linkWithCredential(credential).await()
+>>>>>>> 42932e06df7ae915daeacfc6bf2d8aadd0accf6f
   }
 
   override suspend fun deleteAccount() {

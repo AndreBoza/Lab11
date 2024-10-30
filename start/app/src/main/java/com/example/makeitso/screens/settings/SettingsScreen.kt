@@ -40,8 +40,18 @@ fun SettingsScreen(
   openScreen: (String) -> Unit,
   viewModel: SettingsViewModel = hiltViewModel()
 ) {
+<<<<<<< HEAD
   SettingsScreenContent(
     uiState = viewModel.uiState,
+=======
+
+  val uiState by viewModel.uiState.collectAsState(
+    initial = SettingsUiState(false)
+  )
+
+  SettingsScreenContent(
+    uiState = uiState,
+>>>>>>> 42932e06df7ae915daeacfc6bf2d8aadd0accf6f
     onLoginClick = { viewModel.onLoginClick(openScreen) },
     onSignUpClick = { viewModel.onSignUpClick(openScreen) },
     onSignOutClick = { viewModel.onSignOutClick(restartApp) },

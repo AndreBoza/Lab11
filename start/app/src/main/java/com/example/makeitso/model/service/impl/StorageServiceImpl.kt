@@ -37,7 +37,14 @@ constructor(private val firestore: FirebaseFirestore, private val auth: AccountS
 
   @OptIn(ExperimentalCoroutinesApi::class)
   override val tasks: Flow<List<Task>>
+<<<<<<< HEAD
     get() = emptyFlow()
+=======
+    get() =
+      auth.currentUser.flatMapLatest { user ->
+        firestore.collection(TASK_COLLECTION).whereEqualTo(USER_ID_FIELD, user.id).dataObjects()
+      }
+>>>>>>> 42932e06df7ae915daeacfc6bf2d8aadd0accf6f
 
   override suspend fun getTask(taskId: String): Task? =
     firestore.collection(TASK_COLLECTION).document(taskId).get().await().toObject()

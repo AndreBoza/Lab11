@@ -16,11 +16,19 @@
     <string name="forgot_password">Forgot password? Click to get recovery email</string>
     <string name="recovery_email_sent">Check your inbox for the recovery email.</string>
     <string name="empty_password_error">Password cannot be empty.</string>
+<<<<<<< HEAD
+=======
+    <string name="email_not_verified_error">Verifica tu correo antes de iniciar sesión.</string>
+>>>>>>> 42932e06df7ae915daeacfc6bf2d8aadd0accf6f
 
     <!-- SignUpScreen -->
     <string name="create_account">Create account</string>
     <string name="password_error">Your password should be at least six characters long and include one digit, one lowercase letter and one uppercase letter.</string>
     <string name="password_match_error">Passwords do not match.</string>
+<<<<<<< HEAD
+=======
+    <string name="verification_email_sent">Se ha enviado un correo de verificación.</string>
+>>>>>>> 42932e06df7ae915daeacfc6bf2d8aadd0accf6f
 
     <!-- TasksScreen -->
     <string name="tasks">Tasks</string>

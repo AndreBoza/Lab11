@@ -31,4 +31,8 @@ interface AccountService {
   suspend fun linkAccount(email: String, password: String)
   suspend fun deleteAccount()
   suspend fun signOut()
+<<<<<<< HEAD
+=======
+  suspend fun sendEmailVerification()
+>>>>>>> 42932e06df7ae915daeacfc6bf2d8aadd0accf6f
 }

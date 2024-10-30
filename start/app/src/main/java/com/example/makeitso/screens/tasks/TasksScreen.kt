@@ -28,6 +28,10 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
+<<<<<<< HEAD
+=======
+import androidx.lifecycle.compose.collectAsStateWithLifecycle
+>>>>>>> 42932e06df7ae915daeacfc6bf2d8aadd0accf6f
 import com.example.makeitso.R.drawable as AppIcon
 import com.example.makeitso.R.string as AppText
 import com.example.makeitso.common.composable.ActionToolbar
@@ -42,7 +46,15 @@ fun TasksScreen(
   openScreen: (String) -> Unit,
   viewModel: TasksViewModel = hiltViewModel()
 ) {
+<<<<<<< HEAD
   TasksScreenContent(
+=======
+
+  val tasks = viewModel.tasks.collectAsStateWithLifecycle(emptyList())
+
+  TasksScreenContent(
+    tasks = tasks.value, // pasa la lista de tareas a la funcion
+>>>>>>> 42932e06df7ae915daeacfc6bf2d8aadd0accf6f
     onAddClick = viewModel::onAddClick,
     onSettingsClick = viewModel::onSettingsClick,
     onTaskCheckChange = viewModel::onTaskCheckChange,
@@ -58,6 +70,10 @@ fun TasksScreen(
 @ExperimentalMaterialApi
 fun TasksScreenContent(
   modifier: Modifier = Modifier,
+<<<<<<< HEAD
+=======
+  tasks: List<Task>, // parametro para recibir las tareas
+>>>>>>> 42932e06df7ae915daeacfc6bf2d8aadd0accf6f
   onAddClick: ((String) -> Unit) -> Unit,
   onSettingsClick: ((String) -> Unit) -> Unit,
   onTaskCheckChange: (Task) -> Unit,
@@ -87,10 +103,17 @@ fun TasksScreenContent(
       Spacer(modifier = Modifier.smallSpacer())
 
       LazyColumn {
+<<<<<<< HEAD
         items(emptyList<Task>(), key = { it.id }) { taskItem ->
           TaskItem(
             task = taskItem,
             options = listOf(),
+=======
+        items(tasks, key = { it.id }) { taskItem ->
+          TaskItem(
+            task = taskItem,
+            options = TaskActionOption.getOptions(hasEditOption = true),
+>>>>>>> 42932e06df7ae915daeacfc6bf2d8aadd0accf6f
             onCheckChange = { onTaskCheckChange(taskItem) },
             onActionClick = { action -> onTaskActionClick(openScreen, taskItem, action) }
           )
@@ -106,6 +129,10 @@ fun TasksScreenContent(
 fun TasksScreenPreview() {
   MakeItSoTheme {
     TasksScreenContent(
+<<<<<<< HEAD
+=======
+      tasks = listOf(), // añade una lista vacía para la vista previa
+>>>>>>> 42932e06df7ae915daeacfc6bf2d8aadd0accf6f
       onAddClick = { },
       onSettingsClick = { },
       onTaskCheckChange = { },

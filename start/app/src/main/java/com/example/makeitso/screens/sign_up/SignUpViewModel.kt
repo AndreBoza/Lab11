@@ -17,6 +17,10 @@ limitations under the License.
 package com.example.makeitso.screens.sign_up
 
 import androidx.compose.runtime.mutableStateOf
+<<<<<<< HEAD
+=======
+import com.example.makeitso.LOGIN_SCREEN
+>>>>>>> 42932e06df7ae915daeacfc6bf2d8aadd0accf6f
 import com.example.makeitso.R.string as AppText
 import com.example.makeitso.SETTINGS_SCREEN
 import com.example.makeitso.SIGN_UP_SCREEN
@@ -72,7 +76,14 @@ class SignUpViewModel @Inject constructor(
     }
 
     launchCatching {
+<<<<<<< HEAD
       //TODO
+=======
+      accountService.linkAccount(email, password)
+      accountService.sendEmailVerification() // Enviar correo de verificación
+      SnackbarManager.showMessage(AppText.verification_email_sent) // Mensaje de éxito
+      openAndPopUp(LOGIN_SCREEN,SIGN_UP_SCREEN ) // Redirigir a la pantalla de inicio de sesión
+>>>>>>> 42932e06df7ae915daeacfc6bf2d8aadd0accf6f
     }
   }
 }
